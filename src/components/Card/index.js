@@ -1,9 +1,12 @@
 import React from "react";
+import MainImage from "../MainImage";
 import { Wrapper, Content } from "./Card.styles";
 
 const Card = () => (
   <Wrapper>
-    <Content></Content>
+    <Content>
+      <MainImage />
+    </Content>
   </Wrapper>
 );
 
