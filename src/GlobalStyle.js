@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
     font-family: 'Abel', sans-serif;
+    background-color: var(--mainBlue)
   }
 
   body {
@@ -29,6 +30,7 @@ export const GlobalStyle = createGlobalStyle`
     h1 {
       font-size: 2rem;
       font-weight: 600;
+      color: var(--white);
     }
   }
 `;
