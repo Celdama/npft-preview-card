@@ -19,6 +19,7 @@ export const Content = styled.div`
     }
 
     .remaining {
+      display: flex;
       /* outline: 1px solid red; */
     }
   }
@@ -32,4 +33,5 @@ export const ETHLogo = styled.img`
 
 export const ClockLogo = styled.img`
   margin-right: 6px;
+  height: 16px;
 `;
