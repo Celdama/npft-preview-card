@@ -32,5 +32,9 @@ export const GlobalStyle = createGlobalStyle`
       font-weight: 600;
       color: var(--white);
     }
+
+    .App {
+      outline: 1px solid red;
+    }
   }
 `;
