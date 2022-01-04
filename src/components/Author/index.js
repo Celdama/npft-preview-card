@@ -1,10 +1,16 @@
 import React from 'react';
-import { Wrapper, Content } from './Author.styled';
+import { Wrapper, Content, Avatar } from './Author.styled';
+import AvatarImg from '../../images/image-avatar.png';
 
-const Author = () => {
+const Author = ({ authorName }) => {
   return (
     <Wrapper>
-      <Content>author</Content>
+      <Content>
+        <Avatar src={AvatarImg} />
+        <p>
+          Creation of <span className='author'>{authorName}</span>
+        </p>
+      </Content>
     </Wrapper>
   );
 };

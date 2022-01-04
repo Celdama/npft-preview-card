@@ -12,7 +12,7 @@ const Card = () => (
       <div>
         <NftInfo title='Equilibrium #3429' price='0.041' days={3} />
         <Divider />
-        <Author />
+        <Author authorName='Jules Wyvern' />
       </div>
     </Content>
   </Wrapper>
