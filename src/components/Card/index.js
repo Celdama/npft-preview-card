@@ -2,6 +2,7 @@ import React from 'react';
 import MainImage from '../MainImage';
 import NftInfo from '../NftInfo';
 import Divider from '../Divider';
+import Author from '../Author';
 import { Wrapper, Content } from './Card.styles';
 
 const Card = () => (
@@ -11,6 +12,7 @@ const Card = () => (
       <div>
         <NftInfo title='Equilibrium #3429' price='0.041' days={3} />
         <Divider />
+        <Author />
       </div>
     </Content>
   </Wrapper>
