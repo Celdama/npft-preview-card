@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Wrapper = styled.div``;
 
 export const Content = styled.div`
-  outline: 1px solid red;
   display: flex;
   align-items: center;
 
@@ -18,7 +17,7 @@ export const Content = styled.div`
 `;
 
 export const Avatar = styled.img`
-  height: 36px;
+  height: 32px;
   border: 1.8px solid #fff;
   border-radius: 18px;
 `;

@@ -1,6 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Wrapper = styled.div``;
+export const Wrapper = styled.div`
+  padding: 8px 0 12px 0;
+`;
 
 export const Content = styled.div`
   color: var(--softBlue);
@@ -12,6 +14,7 @@ export const Content = styled.div`
   div {
     display: flex;
     justify-content: space-between;
+    font-size: 0.85rem;
 
     .price {
       color: var(--cyan);
@@ -20,7 +23,6 @@ export const Content = styled.div`
 
     .remaining {
       display: flex;
-      /* outline: 1px solid red; */
     }
   }
 `;
